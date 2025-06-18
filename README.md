@@ -4,17 +4,6 @@ This project is a **Virtual Teaching Assistant** built for the **Tools for Data 
 
 ---
 
-## Project Structure
-virtual-tds-app/
-├── .gitignore
-├── app.py                   # FastAPI app hosting the API
-├── scraper_discourse.py     # ✅ Scraper for Discourse posts (date range supported)
-├── scraper_course.py        # Scraper for course content
-├── knowledge_base.db        # SQLite DB storing scraped data
-├── requirements.txt         # Python dependencies
-├── LICENSE                  # MIT License
-└── README.md                # This file
-
 ## 🔗 Live API Endpoint
 
 📡 **API URL**:  
