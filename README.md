@@ -4,6 +4,17 @@ This project is a **Virtual Teaching Assistant** built for the **Tools for Data 
 
 ---
 
+## Project Structure
+virtual-tds-app/
+├── .gitignore
+├── app.py                   # FastAPI app hosting the API
+├── scraper_discourse.py     # ✅ Scraper for Discourse posts (date range supported)
+├── scraper_course.py        # Scraper for course content
+├── knowledge_base.db        # SQLite DB storing scraped data
+├── requirements.txt         # Python dependencies
+├── LICENSE                  # MIT License
+└── README.md                # This file
+
 ## 🔗 Live API Endpoint
 
 📡 **API URL**:  
@@ -15,13 +26,3 @@ Send a `POST` request with a student question (and optional file attachment) in 
 curl "https://virtual-ta-app-28ts.onrender.com/query" \
   -H "Content-Type: application/json" \
   -d "{\"question\": \"Can I use gpt-4o-mini for this GA?\"}"
-
-virtual-tds-app/
-├── .gitignore
-├── app.py                   # FastAPI app hosting the API
-├── scraper_discourse.py     # ✅ Scraper for Discourse posts (date range supported)
-├── scraper_course.py        # Scraper for course content
-├── knowledge_base.db        # SQLite DB storing scraped data
-├── requirements.txt         # Python dependencies
-├── LICENSE                  # MIT License
-└── README.md                # This file
