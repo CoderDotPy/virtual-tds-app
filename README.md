@@ -7,7 +7,7 @@ This project is a **Virtual Teaching Assistant** built for the **Tools for Data 
 ## 🔗 Live API Endpoint
 
 📡 **API URL**:  
-`[https://virtual-ta-app.onrender.com/api/](https://virtual-ta-app-28ts.onrender.com/query)`
+`https://virtual-ta-app-28ts.onrender.com/query`
 
 Send a `POST` request with a student question (and optional file attachment) in JSON. Example:
 
